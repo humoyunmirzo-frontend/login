@@ -12,7 +12,7 @@ export default function Header() {
                 </Link>
             </Slide>
          
-            <Slide direction='right' triggerOnce>[#fff]>
+            <Slide direction='right' triggerOnce>
             Admin ismi
             </Slide>
         </header>
