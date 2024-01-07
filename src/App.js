@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Login from './Pages/Login'
-import Home from './Pages/Home'
-import Page404 from './Pages/404'
+import Login from './pages/login'
+import Home from './pages/Home'
+import Page404 from './pages/404'
 import ProtectedRoutes from './Components/ProtectedRoutes'
 export default function App() {
   return (
