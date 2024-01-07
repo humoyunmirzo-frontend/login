@@ -33,7 +33,7 @@ export default function Login() {
     setOpen(false);
   };
   return (
-    <div className="relative h-[100vh] ">
+    <>
     <div className="flex flex-col justify-center h-[100vh] w-full items-center bg-primary">
       <Slide direction="left" triggerOnce->
         <form onSubmit={formik.handleSubmit} className="flex flex-col gap-3 px-3 py-2 rounded-md bg-[#fff]">
@@ -63,5 +63,5 @@ export default function Login() {
         <Alert color="error" sx={{bgcolor:"#f44", color:"white"}} severity="error">Parol xato!</Alert>
       </Snackbar>
       </Bounce>
-      </div>
+      </>
   )}
