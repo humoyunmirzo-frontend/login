@@ -11,16 +11,9 @@ export default function Header() {
                     Logo
                 </Link>
             </Slide>
-            <Fade triggerOnce >
-                <div className="flex items-center gap-3">
-                <a href="#"  rel="noreferrer" className="text-[#fff] underline-none">Products</a>
-                <a href="#"  rel="noreferrer" className="text-[#fff] underline-none">Services</a>
-                <a href="#"  rel="noreferrer" className="text-[#fff] underline-none">About Us</a>
-                <a href="#"  rel="noreferrer" className="text-[#fff] underline-none">Contact</a>
-                </div>
-            </Fade>
-            <Slide direction='right' triggerOnce>[#fff]
-                <Link to={token ? "/dashboard":"../login"} className="px-3 py-1 rounded-[4px] text-[#fff] bg-secondary">Kirish</Link>
+         
+            <Slide direction='right' triggerOnce>[#fff]>
+            Admin ismi
             </Slide>
         </header>
     )
