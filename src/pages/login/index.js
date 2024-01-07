@@ -22,7 +22,7 @@ export default function Login() {
           const access_token = 'token'
           localStorage.setItem('access_token', access_token)
           navigate('/')
-      } else setOpen(true)
+      } else alert('Xato')
              formik.resetForm()
     }
   })
