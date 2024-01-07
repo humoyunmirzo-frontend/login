@@ -1,6 +1,6 @@
 import React from 'react'
 import { Fade, Slide } from 'react-awesome-reveal'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function Header() {
     const token = localStorage.getItem('access_token')
