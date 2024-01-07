@@ -1,10 +1,9 @@
 import React from 'react'
-import Header from '../../Containers/Header'
 
 export default function Dashboard() {
   return (
-    <>
-    <Header/>
-    </>
+    <div className="pt-4 pl-4">
+    Dashboard
+    </div>
   )
 }
