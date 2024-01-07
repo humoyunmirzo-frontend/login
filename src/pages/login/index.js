@@ -58,7 +58,7 @@ export default function Login() {
         </form>
       </Slide>
       </div>
-      <Bounce triggerOnce>
+      <Bounce className="absolute top-[24px] right-[24px]" triggerOnce>
       <Snackbar open={open} autoHideDuration={3000} onClose={handleClose}>
         <Alert color="error" sx={{bgcolor:"#f44", color:"white"}} severity="error">Ma'lumotlar xato!</Alert>
       </Snackbar>
