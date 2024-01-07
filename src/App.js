@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Login from './pages/Login'
+import Login from './pages/login'
 import Home from './pages/Home'
-import Dashboard from './pages/Dashboard'
+import Dashboard from './pages/dashboard'
 import Page404 from './pages/404'
 import ProtectedRoutes from './Components/ProtectedRoutes'
 export default function App() {
