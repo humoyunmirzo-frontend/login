@@ -13,10 +13,10 @@ export default function Header() {
             </Slide>
             <Fade triggerOnce >
                 <div className="flex items-center gap-3">
-                <a href="#" className="text-[#fff] underline-none">Products</a>
-                <a href="#" className="text-[#fff] underline-none">Services</a>
-                <a href="#" className="text-[#fff] underline-none">About Us</a>
-                <a href="#" className="text-[#fff] underline-none">Contact</a>
+                <a href="#"  rel="noreferrer" className="text-[#fff] underline-none">Products</a>
+                <a href="#"  rel="noreferrer" className="text-[#fff] underline-none">Services</a>
+                <a href="#"  rel="noreferrer" className="text-[#fff] underline-none">About Us</a>
+                <a href="#"  rel="noreferrer" className="text-[#fff] underline-none">Contact</a>
                 </div>
             </Fade>
             <Slide direction='right' triggerOnce>[#fff]
