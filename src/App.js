@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './pages/home'
-import Dashboard from './pages/dashboard'
+import Home from './Pages/Home'
+import Login from './Pages/Login'
 import ProtectedRoutes from './Components/ProtectedRoutes'
-import Page404 from './pages/404'
-import Login from './pages/login'
+import Dashboard from './Pages/Dashboard'
+import Page404 from './Pages/404'
 export default function App() {
   return (
     <>
